@@ -14,6 +14,8 @@
 		E41FC23E1F7702CD00C9C8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41FC23C1F7702CD00C9C8CE /* LaunchScreen.storyboard */; };
 		E41FC2491F7702CE00C9C8CE /* PetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FC2481F7702CE00C9C8CE /* PetAppTests.swift */; };
 		E41FC2541F7702CE00C9C8CE /* PetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FC2531F7702CE00C9C8CE /* PetAppUITests.swift */; };
+		E41FC2621F77377A00C9C8CE /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FC2611F77377A00C9C8CE /* DisplayView.swift */; };
+		E49B9BE41F7893FA00772D5C /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B9BE31F7893FA00772D5C /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E41FC24F1F7702CE00C9C8CE /* PetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41FC2531F7702CE00C9C8CE /* PetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAppUITests.swift; sourceTree = "<group>"; };
 		E41FC2551F7702CE00C9C8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41FC2611F77377A00C9C8CE /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayView.swift; path = "../../iOS-Virtual-Pet-App/Virtual Pet App/DisplayView.swift"; sourceTree = "<group>"; };
+		E49B9BE31F7893FA00772D5C /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				E41FC2331F7702CD00C9C8CE /* AppDelegate.swift */,
 				E41FC2351F7702CD00C9C8CE /* ViewController.swift */,
 				E41FC2371F7702CD00C9C8CE /* Main.storyboard */,
+				E41FC2611F77377A00C9C8CE /* DisplayView.swift */,
 				E41FC23A1F7702CD00C9C8CE /* Assets.xcassets */,
 				E41FC23C1F7702CD00C9C8CE /* LaunchScreen.storyboard */,
 				E41FC23F1F7702CD00C9C8CE /* Info.plist */,
+				E49B9BE31F7893FA00772D5C /* Pet.swift */,
 			);
 			path = PetApp;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41FC2621F77377A00C9C8CE /* DisplayView.swift in Sources */,
+				E49B9BE41F7893FA00772D5C /* Pet.swift in Sources */,
 				E41FC2361F7702CD00C9C8CE /* ViewController.swift in Sources */,
 				E41FC2341F7702CD00C9C8CE /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +524,7 @@
 				E41FC25A1F7702CE00C9C8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41FC25B1F7702CE00C9C8CE /* Build configuration list for PBXNativeTarget "PetAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				E41FC25D1F7702CE00C9C8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41FC25E1F7702CE00C9C8CE /* Build configuration list for PBXNativeTarget "PetAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				E41FC2601F7702CE00C9C8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
